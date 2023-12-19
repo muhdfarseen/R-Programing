@@ -1,0 +1,6 @@
+id,name,agee,salary,startdate,dept
+1,John Doe,30,50000,2023-01-01,IT
+2,Jane Doe,25,40000,2023-02-01,HR
+3,Mike Smith,40,60000,2023-03-01,Sales
+4,Emily Jones,35,55000,2023-04-01,Marketing
+5,David Lee,28,45000,2023-05-01,Finance

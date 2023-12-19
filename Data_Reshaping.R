@@ -18,6 +18,11 @@ cat("emp.data summary : \n\n")
 print(summary(emp.data))
 cat("\n\n")
 
+highsalemp <- emp.data[emp.data$salary > 800, ]
+cat("Summary of Employees with Salary above 800:\n\n")
+print(summary(highsalemp))
+cat("\n\n")
+
 
 cat("list data with emp_name and salary : \n\n")
 result <- data.frame(emp.data$emp_name,emp.data$salary)

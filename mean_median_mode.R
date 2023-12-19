@@ -21,19 +21,30 @@ cat("\n\n")
 
 #-----------Mode------------------
 
-mode <- function(){
-  print(sort(-table(myData$agee))[1])
-}
-
-mode()
-
-#--------method two---------
-
 mode <- function(x) {
   tbl <- table(x)
   modes <- as.numeric(names(tbl[tbl == max(tbl)]))
-  return(modes)
+  print(modes)
 }
 
-
 get_mode(myData$agee)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

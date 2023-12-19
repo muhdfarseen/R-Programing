@@ -1,5 +1,5 @@
 
-setwd("C:/Users/LENOVO/Desktop/R_programming/") 
+#setwd("C:/Users/LENOVO/Desktop/R_programming/") 
 
 myData <- read.csv("data.csv")
 
